@@ -1,0 +1,54 @@
+{
+  "id": "cn-civil-service",
+  "name": {
+    "en": "National civil service exam confirmation photo (source image)",
+    "zh": "中央机关及其直属机构考试录用公务员报名确认照片（源图）"
+  },
+  "category": "exam",
+  "region": "CN",
+  "issuer": "National Civil Service Administration (报考指南, 2026 session)",
+  "photo": {
+    "pixels": {
+      "width": null,
+      "height": null,
+      "min_width": 295,
+      "max_width": null,
+      "min_height": 413
+    },
+    "print_mm": {
+      "width": null,
+      "height": null
+    },
+    "dpi": null,
+    "aspect": null,
+    "head_ratio": null,
+    "background": [
+      "#FFFFFF"
+    ],
+    "color": "color"
+  },
+  "file": {
+    "formats": [
+      "jpg"
+    ],
+    "min_kb": null,
+    "max_kb": null
+  },
+  "notes": {
+    "en": "From the 2026 national civil service exam applicant guide: the source photo uploaded into the official photo-processing tool must be a recent bareheaded front-facing digital ID photo, blue or white background, JPG/JPEG, width at least 295 pixels and height at least 413 pixels, with no beautification. The tool’s output size is not published on the guide. File KB limits, print millimetres, DPI, and head ratio are not stated. Hex for “blue” is not stated; white is recorded as #FFFFFF. The guide is issued for the official topic site bm.scs.gov.cn; this entry cites government republications of that guide.",
+    "zh": "2026 年国考《报考指南》：须先用官方“照片处理工具”处理。源图为本人近期免冠正面电子证件照，蓝底或白底，JPG/JPEG，宽不低于 295 像素、高不低于 413 像素，不得美化。工具输出尺寸未公布。KB、印刷毫米、DPI、头部比例未写。蓝色无官方色值，白底记为 #FFFFFF。指南面向专题网站 bm.scs.gov.cn；本条引用政府网站转载文本。"
+  },
+  "sources": [
+    {
+      "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/tzxx/202510/t20251016_4227200.html",
+      "title": "Beijing Municipal Government: 2026 national civil service exam applicant guide (photo-processing tool)",
+      "checked": "2026-10-09"
+    },
+    {
+      "url": "https://www.forestry.gov.cn/c/www/rszkzp/645422.jhtml",
+      "title": "National Forestry and Grassland Administration republication of the same 2026 applicant guide (source: National Civil Service Administration)",
+      "checked": "2026-10-09"
+    }
+  ],
+  "status": "needs-review"
+}

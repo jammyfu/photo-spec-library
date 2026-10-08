@@ -1,0 +1,48 @@
+{
+  "id": "cn-legal-professional",
+  "name": {
+    "en": "National Unified Legal Professional Qualification Examination registration photo",
+    "zh": "国家统一法律职业资格考试报名照"
+  },
+  "category": "exam",
+  "region": "CN",
+  "issuer": "Ministry of Justice of the People's Republic of China",
+  "photo": {
+    "pixels": {
+      "width": 413,
+      "height": 626,
+      "min_width": null,
+      "max_width": null
+    },
+    "print_mm": {
+      "width": null,
+      "height": null
+    },
+    "dpi": null,
+    "aspect": "413:626",
+    "head_ratio": null,
+    "background": [
+      "#FFFFFF"
+    ],
+    "color": "color"
+  },
+  "file": {
+    "formats": [
+      "jpg"
+    ],
+    "min_kb": 40,
+    "max_kb": 100
+  },
+  "notes": {
+    "en": "Provincial announcement published on the Ministry of Justice site for the 2025 objective-item exam (the photo rule is the national format): 413×626 pixels; colour; red, blue, or white background; front-facing, bareheaded; taken within 3 months; JPG; 40–100 KB. Head and shoulders, both ears and both eyebrows visible; head about two-thirds of the photo (approximate wording, so head_ratio is left null). No accessories or thick frames that hide the eyes; no stretching or beautification. Print millimetres and DPI are not stated. Only white is stored as a hex value.",
+    "zh": "司法部门户刊登的 2025 年客观题考试公告（照片为全国统一格式）：宽 413 × 高 626 像素；彩色；红/蓝/白底均可；正面免冠；近三个月；JPG；40–100 KB。须显示双肩、双耳、双眉；头部约占照片约 2/3（“约”故 head_ratio 留空）。不得佩戴遮挡五官的饰品或粗框眼镜，不得拉伸、美化。未写印刷毫米与 DPI。色值只记白底。"
+  },
+  "sources": [
+    {
+      "url": "https://www.moj.gov.cn/jgsz/jgszzsdw/zsdwgjsfkszx/gjsfkszxdt/202506/t20250613_520865.html",
+      "title": "Ministry of Justice: Jilin Justice Department announcement on the 2025 National Unified Legal Professional Qualification objective-item exam (electronic photo rules)",
+      "checked": "2026-10-09"
+    }
+  ],
+  "status": "needs-review"
+}

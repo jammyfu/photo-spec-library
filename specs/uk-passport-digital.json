@@ -1,0 +1,47 @@
+{
+  "id": "uk-passport-digital",
+  "name": {
+    "en": "UK passport digital photo",
+    "zh": "英国护照数字照片"
+  },
+  "category": "passport",
+  "region": "GB",
+  "issuer": "HM Passport Office / GOV.UK",
+  "photo": {
+    "pixels": {
+      "width": null,
+      "height": null,
+      "min_width": 600,
+      "max_width": null,
+      "min_height": 750
+    },
+    "print_mm": {
+      "width": null,
+      "height": null
+    },
+    "dpi": null,
+    "aspect": "4:5",
+    "head_ratio": null,
+    "background": [
+      "#FFFFFF"
+    ],
+    "color": "color"
+  },
+  "file": {
+    "formats": [],
+    "min_kb": 50,
+    "max_kb": 10240
+  },
+  "notes": {
+    "en": "Online UK passport applications: digital photo taken in the last month; colour; unaltered; at least 600 pixels wide and 750 pixels tall; at least 50 KB and no more than 10 MB. Plain light-coloured background (hex not named; #FFFFFF stored as a default light colour). Include head, shoulders and upper body if you take the photo yourself — do not crop; cropping is done in the service. File format is not named on this page (photo-code guidance elsewhere says JPEG). Head ratio, print millimetres, and DPI are not stated.",
+    "zh": "英国护照在线申请：近 1 个月内数字照片；彩色、未经软件改动；至少 600×750 像素；50 KB–10 MB。浅色纯背景（未给色值，默认记 #FFFFFF）。若自行拍摄须包含头、肩与上身，不要裁切，由系统裁切。本页未写文件格式（另页照片码说明为 JPEG）。未写头部比例、印刷毫米与 DPI。"
+  },
+  "sources": [
+    {
+      "url": "https://www.gov.uk/photos-for-passports",
+      "title": "GOV.UK: Get a passport photo — digital photos",
+      "checked": "2026-10-09"
+    }
+  ],
+  "status": "needs-review"
+}

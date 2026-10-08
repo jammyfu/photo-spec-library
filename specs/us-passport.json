@@ -1,0 +1,49 @@
+{
+  "id": "us-passport",
+  "name": {
+    "en": "U.S. passport photo (paper application)",
+    "zh": "美国护照照片（纸质申请）"
+  },
+  "category": "passport",
+  "region": "US",
+  "issuer": "U.S. Department of State — Passport Services",
+  "photo": {
+    "pixels": {
+      "width": null,
+      "height": null,
+      "min_width": null,
+      "max_width": null
+    },
+    "print_mm": {
+      "width": 51,
+      "height": 51
+    },
+    "dpi": null,
+    "aspect": "1:1",
+    "head_ratio": {
+      "min": 0.5,
+      "max": 0.6875
+    },
+    "background": [
+      "#FFFFFF"
+    ],
+    "color": "color"
+  },
+  "file": {
+    "formats": [],
+    "min_kb": null,
+    "max_kb": null
+  },
+  "notes": {
+    "en": "Paper / in-person applications: one colour photo taken in the last 6 months; printed size 2×2 inches (51×51 mm); head (chin to top of head) 1–1 3/8 inches (25–35 mm), i.e. 0.5–0.6875 of photo height. White or off-white plain background. Neutral expression, mouth closed; no glasses. Pixel dimensions, file format, and KB limits for a printed photo are not stated. Online renewal uses a separate digital-upload page and is not this entry.",
+    "zh": "纸质/当面申请：近 6 个月内彩色照片一张；印刷尺寸 2×2 英寸（51×51 mm）；头部（下巴到头顶）1–1 3/8 英寸（25–35 mm），约占照片高度 0.5–0.6875。白或灰白纯色背景。表情自然、闭口；不戴眼镜。印刷照未写像素、格式与 KB。在线更新另有数字上传页，不在本条。"
+  },
+  "sources": [
+    {
+      "url": "https://travel.state.gov/en/passports/apply/help/photos.html",
+      "title": "U.S. Department of State: Passport photos (paper application)",
+      "checked": "2026-10-09"
+    }
+  ],
+  "status": "needs-review"
+}

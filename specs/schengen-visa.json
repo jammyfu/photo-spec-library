@@ -1,0 +1,52 @@
+{
+  "id": "schengen-visa",
+  "name": {
+    "en": "Schengen / ICAO biometric photo (35×45 mm)",
+    "zh": "申根 / ICAO 生物识别照片（35×45 mm）"
+  },
+  "category": "visa",
+  "region": "INTL",
+  "issuer": "ICAO Doc 9303 / German Federal Foreign Office biometric photo rules",
+  "photo": {
+    "pixels": {
+      "width": null,
+      "height": null,
+      "min_width": null,
+      "max_width": null
+    },
+    "print_mm": {
+      "width": 35,
+      "height": 45
+    },
+    "dpi": null,
+    "aspect": "7:9",
+    "head_ratio": {
+      "min": 0.7,
+      "max": 0.8
+    },
+    "background": [],
+    "color": "color"
+  },
+  "file": {
+    "formats": [],
+    "min_kb": null,
+    "max_kb": null
+  },
+  "notes": {
+    "en": "The EU Visa Code requires a photograph meeting ICAO Doc 9303 portrait rules; ICAO Part 3 states submitted portraits should be 45.0 mm × 35.0 mm. This entry records the widely used 35×45 mm print plus the German Federal Foreign Office biometric measurements that implement the ICAO 70–80% face height (32–36 mm chin to crown on a 35×45 mm photo). Background is a single light colour, ideally neutral grey — no official hex. Pixel size, file limits, and DPI are not stated. Individual Schengen consulates may word height differently; check the consulate that will receive the application.",
+    "zh": "欧盟签证法典要求照片符合 ICAO Doc 9303；ICAO 第 3 部分写明提交肖像应为 45.0 mm × 35.0 mm。本条记录常用的 35×45 mm，以及德国外交部生物识别尺寸：面部高度占照片 70–80%（35×45 mm 上为下巴到头顶 32–36 mm）。背景为单一浅色，理想为中性灰，无官方色值。未写像素、文件限制与 DPI。各申根馆表述可能不同，以受理馆为准。"
+  },
+  "sources": [
+    {
+      "url": "https://www.icao.int/sites/default/files/publications/DocSeries/9303_p3_cons_en.pdf",
+      "title": "ICAO Doc 9303 Part 3: Specifications Common to all MRTDs (submitted portrait size)",
+      "checked": "2026-10-09"
+    },
+    {
+      "url": "https://lima.diplo.de/pe-de/konsularservice/2663976-2663976",
+      "title": "German Federal Foreign Office (Embassy Lima): biometric passport photo requirements 35×45 mm, face 70–80%",
+      "checked": "2026-10-09"
+    }
+  ],
+  "status": "needs-review"
+}

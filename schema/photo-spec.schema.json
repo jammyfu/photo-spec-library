@@ -1,0 +1,180 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/jammyfu/photo-spec-library/main/schema/photo-spec.schema.json",
+  "title": "Photo specification entry",
+  "description": "One ID / exam-registration / visa / passport photo specification. Contract shared with vendors of this library. Required field names must not be renamed or removed. Optional extensions are documented in README.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "category",
+    "region",
+    "issuer",
+    "photo",
+    "file",
+    "notes",
+    "sources",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(-[a-z0-9]+)*$",
+      "description": "Stable kebab-case identifier."
+    },
+    "name": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["en", "zh"],
+      "properties": {
+        "en": { "type": "string", "minLength": 1 },
+        "zh": { "type": "string", "minLength": 1 },
+        "zh-Hant": { "type": "string", "minLength": 1 },
+        "ja": { "type": "string", "minLength": 1 },
+        "ko": { "type": "string", "minLength": 1 }
+      }
+    },
+    "category": {
+      "type": "string",
+      "enum": ["exam", "visa", "passport", "id-card", "other"]
+    },
+    "region": {
+      "type": "string",
+      "description": "ISO 3166-1 alpha-2 of the issuing authority, or INTL.",
+      "pattern": "^([A-Z]{2}|INTL)$"
+    },
+    "issuer": { "type": "string", "minLength": 1 },
+    "photo": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "pixels",
+        "print_mm",
+        "dpi",
+        "aspect",
+        "head_ratio",
+        "background",
+        "color"
+      ],
+      "properties": {
+        "pixels": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["width", "height", "min_width", "max_width"],
+          "properties": {
+            "width": { "type": ["integer", "null"], "minimum": 1 },
+            "height": { "type": ["integer", "null"], "minimum": 1 },
+            "min_width": { "type": ["integer", "null"], "minimum": 1 },
+            "max_width": { "type": ["integer", "null"], "minimum": 1 },
+            "min_height": {
+              "type": ["integer", "null"],
+              "minimum": 1,
+              "description": "Optional extension: official minimum pixel height when no exact height is published."
+            },
+            "max_height": {
+              "type": ["integer", "null"],
+              "minimum": 1,
+              "description": "Optional extension: official maximum pixel height."
+            }
+          }
+        },
+        "print_mm": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["width", "height"],
+          "properties": {
+            "width": { "type": ["number", "null"], "exclusiveMinimum": 0 },
+            "height": { "type": ["number", "null"], "exclusiveMinimum": 0 },
+            "min_width": {
+              "type": ["number", "null"],
+              "exclusiveMinimum": 0,
+              "description": "Optional extension: official minimum print width in millimetres."
+            },
+            "max_width": {
+              "type": ["number", "null"],
+              "exclusiveMinimum": 0,
+              "description": "Optional extension: official maximum print width in millimetres."
+            },
+            "min_height": {
+              "type": ["number", "null"],
+              "exclusiveMinimum": 0,
+              "description": "Optional extension: official minimum print height in millimetres."
+            },
+            "max_height": {
+              "type": ["number", "null"],
+              "exclusiveMinimum": 0,
+              "description": "Optional extension: official maximum print height in millimetres."
+            }
+          }
+        },
+        "dpi": { "type": ["integer", "null"], "minimum": 1 },
+        "aspect": { "type": ["string", "null"], "minLength": 1 },
+        "head_ratio": {
+          "description": "Head height (chin to crown) divided by photo height. Null if the issuer does not state a ratio.",
+          "anyOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["min", "max"],
+              "properties": {
+                "min": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+                "max": { "type": ["number", "null"], "minimum": 0, "maximum": 1 }
+              }
+            }
+          ]
+        },
+        "background": {
+          "type": "array",
+          "description": "Allowed background colours as #RRGGBB. First item is the default. Empty when the issuer does not name a colour that can be mapped to a hex value without inventing one.",
+          "items": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" }
+        },
+        "color": {
+          "type": "string",
+          "enum": ["color", "grayscale", "either"]
+        }
+      }
+    },
+    "file": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["formats", "min_kb", "max_kb"],
+      "properties": {
+        "formats": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^[a-z0-9]+$" }
+        },
+        "min_kb": { "type": ["number", "null"], "minimum": 0 },
+        "max_kb": { "type": ["number", "null"], "minimum": 0 }
+      }
+    },
+    "notes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["en", "zh"],
+      "properties": {
+        "en": { "type": "string", "minLength": 1 },
+        "zh": { "type": "string", "minLength": 1 }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["url", "title", "checked"],
+        "properties": {
+          "url": { "type": "string", "pattern": "^https://" },
+          "title": { "type": "string", "minLength": 1 },
+          "checked": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" }
+        }
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["verified", "needs-review"]
+    }
+  }
+}

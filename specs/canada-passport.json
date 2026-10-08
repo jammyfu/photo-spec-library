@@ -1,0 +1,49 @@
+{
+  "id": "canada-passport",
+  "name": {
+    "en": "Canada passport photo (print, in person or by mail)",
+    "zh": "加拿大护照照片（纸质，当面或邮寄）"
+  },
+  "category": "passport",
+  "region": "CA",
+  "issuer": "Immigration, Refugees and Citizenship Canada",
+  "photo": {
+    "pixels": {
+      "width": null,
+      "height": null,
+      "min_width": null,
+      "max_width": null
+    },
+    "print_mm": {
+      "width": 50,
+      "height": 70
+    },
+    "dpi": null,
+    "aspect": "5:7",
+    "head_ratio": {
+      "min": 0.443,
+      "max": 0.514
+    },
+    "background": [
+      "#FFFFFF"
+    ],
+    "color": "either"
+  },
+  "file": {
+    "formats": [],
+    "min_kb": null,
+    "max_kb": null
+  },
+  "notes": {
+    "en": "In-person or mail applications: two identical unaltered photos, 50 mm × 70 mm; face (chin to crown) 31–36 mm (about 0.443–0.514 of 70 mm); taken no more than 6 months before submission; colour or black and white; plain white or light-coloured background. Pixel size and file limits are not stated for prints. Online renewal uses a different digital spec (JPEG, 3:2 portrait, 1200×1800 to 3000×4500 pixels, 200 KB–5 MB, chin-to-crown 45–50%) which is not this entry.",
+    "zh": "当面或邮寄：两张未改动的相同照片，50 mm × 70 mm；面部（下巴到头顶）31–36 mm（约占 70 mm 的 0.443–0.514）；提交前不超过 6 个月；彩色或黑白；白或浅色纯背景。印刷照未写像素与文件限制。在线更新为另一套数字规格（JPEG、3:2 竖图、1200×1800 至 3000×4500、200 KB–5 MB、头高 45–50%），不在本条。"
+  },
+  "sources": [
+    {
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/photos.html",
+      "title": "Canada.ca: Passport photo requirements",
+      "checked": "2026-10-09"
+    }
+  ],
+  "status": "needs-review"
+}

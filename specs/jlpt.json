@@ -1,0 +1,48 @@
+{
+  "id": "jlpt",
+  "name": {
+    "en": "JLPT registration photo (Japan / MyJLPT)",
+    "zh": "日本语能力测试报名照（日本国内 MyJLPT）",
+    "ja": "日本語能力試験 受験申込写真（日本国内）"
+  },
+  "category": "exam",
+  "region": "JP",
+  "issuer": "Japan Educational Exchanges and Services (JEES)",
+  "photo": {
+    "pixels": {
+      "width": null,
+      "height": null,
+      "min_width": 480,
+      "max_width": null,
+      "min_height": 640
+    },
+    "print_mm": {
+      "width": null,
+      "height": null
+    },
+    "dpi": null,
+    "aspect": "3:4",
+    "head_ratio": null,
+    "background": [],
+    "color": "either"
+  },
+  "file": {
+    "formats": [
+      "jpg"
+    ],
+    "min_kb": null,
+    "max_kb": 5120
+  },
+  "notes": {
+    "en": "Applies to Japan domestic applications via MyJLPT. Official page: JPEG only; 480×640 pixels or larger; file size up to 5 MB; taken within 6 months. Print millimetres, DPI, exact aspect crop, head ratio, and background colour are not stated (plain / no scenery). Colour vs grayscale is not stated. Overseas JLPT photo rules are set by each local host and are not covered here.",
+    "zh": "适用于经 MyJLPT 的日本国内报名。官方要求：仅 JPEG；480×640 像素及以上；文件不超过 5 MB；6 个月内拍摄。印刷毫米、DPI、精确裁切、头部比例与底色未写明。海外考点由当地实施机构另行规定，本条不覆盖。"
+  },
+  "sources": [
+    {
+      "url": "https://info.jees-jlpt.jp/myjlpt/application.html",
+      "title": "JEES: Precautions when applying to take Japanese-Language Proficiency Test in 2026",
+      "checked": "2026-10-09"
+    }
+  ],
+  "status": "needs-review"
+}

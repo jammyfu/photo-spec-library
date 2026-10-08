@@ -1,0 +1,50 @@
+{
+  "id": "japan-passport",
+  "name": {
+    "en": "Japan passport photo",
+    "zh": "日本护照照片",
+    "ja": "日本国旅券申請用写真"
+  },
+  "category": "passport",
+  "region": "JP",
+  "issuer": "Ministry of Foreign Affairs of Japan",
+  "photo": {
+    "pixels": {
+      "width": null,
+      "height": null,
+      "min_width": null,
+      "max_width": null
+    },
+    "print_mm": {
+      "width": 35,
+      "height": 45
+    },
+    "dpi": null,
+    "aspect": "7:9",
+    "head_ratio": {
+      "min": 0.711,
+      "max": 0.8
+    },
+    "background": [
+      "#FFFFFF"
+    ],
+    "color": "either"
+  },
+  "file": {
+    "formats": [],
+    "min_kb": null,
+    "max_kb": null
+  },
+  "notes": {
+    "en": "MOFA: borderless photo 45 mm high × 35 mm wide; no background (white recommended); taken within 6 months before the application date; bareheaded, facing forward; chin-to-crown 34±2 mm (32–36 mm, about 0.711–0.800 of 45 mm). Do not retouch facial features. Pixel size, file limits, DPI, and colour vs grayscale are not stated on the application-steps page.",
+    "zh": "外务省：无边框照片纵 45 mm × 横 35 mm；无背景（建议白色）；申请日前 6 个月内拍摄；无帽正面；头顶到下巴 34±2 mm（32–36 mm，约占 45 mm 的 0.711–0.800）。不得修整五官。申请流程页未写像素、文件限制、DPI 及是否必须彩色。"
+  },
+  "sources": [
+    {
+      "url": "https://www.mofa.go.jp/mofaj/toko/passport/pass_2.html",
+      "title": "Ministry of Foreign Affairs of Japan: passport application steps (photo specifications)",
+      "checked": "2026-10-09"
+    }
+  ],
+  "status": "needs-review"
+}

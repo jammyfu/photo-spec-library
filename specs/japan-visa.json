@@ -1,0 +1,52 @@
+{
+  "id": "japan-visa",
+  "name": {
+    "en": "Japan visa application photo",
+    "zh": "日本签证申请照片",
+    "ja": "日本査証申請用写真"
+  },
+  "category": "visa",
+  "region": "JP",
+  "issuer": "Ministry of Foreign Affairs of Japan / Embassy of Japan",
+  "photo": {
+    "pixels": {
+      "width": null,
+      "height": null,
+      "min_width": null,
+      "max_width": null
+    },
+    "print_mm": {
+      "width": 35,
+      "height": 45
+    },
+    "dpi": null,
+    "aspect": "7:9",
+    "head_ratio": null,
+    "background": [
+      "#FFFFFF"
+    ],
+    "color": "either"
+  },
+  "file": {
+    "formats": [],
+    "min_kb": null,
+    "max_kb": null
+  },
+  "notes": {
+    "en": "MOFA visa application form photo box: 45 mm × 35 mm (or 2 in × 1.4 in), recorded here as 35 mm wide × 45 mm high. Embassy of Japan in Trinidad and Tobago (official mission page): one passport photograph 45 mm × 35 mm taken within the last six months with a white background. Pixel size, file limits, DPI, colour vs grayscale, and head ratio are not stated on those pages. Some missions also accept 45×45 mm; check the mission that will receive the application.",
+    "zh": "外务省签证申请表贴相片处：45 mm × 35 mm（或 2 in × 1.4 in），本条记为宽 35 mm × 高 45 mm。日本驻特立尼达和多巴哥大使馆官方页：一张 45 mm × 35 mm 护照照片，近 6 个月内拍摄，白底。上述页未写像素、文件限制、DPI、是否必须彩色与头部比例。部分馆也接受 45×45 mm，以受理馆为准。"
+  },
+  "sources": [
+    {
+      "url": "https://www.mofa.go.jp/files/000124525.pdf",
+      "title": "Ministry of Foreign Affairs of Japan: Visa application form to enter Japan (photo size)",
+      "checked": "2026-10-09"
+    },
+    {
+      "url": "https://www.tt.emb-japan.go.jp/itpr_ja/11_000001_04434.html",
+      "title": "Embassy of Japan in Trinidad and Tobago: short-term stay documents (passport photograph)",
+      "checked": "2026-10-09"
+    }
+  ],
+  "status": "needs-review"
+}

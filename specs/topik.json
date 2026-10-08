@@ -1,0 +1,45 @@
+{
+  "id": "topik",
+  "name": {
+    "en": "TOPIK registration photo",
+    "zh": "韩国语能力考试报名照",
+    "ko": "한국어능력시험 접수 사진"
+  },
+  "category": "exam",
+  "region": "KR",
+  "issuer": "National Institute for International Education (NIIED) / TOPIK",
+  "photo": {
+    "pixels": {
+      "width": null,
+      "height": null,
+      "min_width": null,
+      "max_width": null
+    },
+    "print_mm": {
+      "width": 35,
+      "height": 45
+    },
+    "dpi": null,
+    "aspect": "7:9",
+    "head_ratio": null,
+    "background": [],
+    "color": "color"
+  },
+  "file": {
+    "formats": [],
+    "min_kb": null,
+    "max_kb": null
+  },
+  "notes": {
+    "en": "From the 2026 TOPIK implementation notice: registration photos follow the Ministry of Justice foreigner-registration photo standard. Colour, upper-body, front-facing, passport-style, identical print, 3.5 cm wide × 4.5 cm high, taken within 6 months of the start of registration. Eyes must not be hidden by hair or frames; no hat covering the head. Digital photos must not be altered from the original. Background must be a single solid colour with no extra backdrop. Pixel size, file format, KB limits, DPI, and a named background hex are not stated.",
+    "zh": "2026 年 TOPIK 实施公告：报名照片准用韩国法务部外国人登记用照片规格。彩色、上半身、正面、护照式、同一底片，横 3.5 cm × 纵 4.5 cm，须在报名开始日起近 6 个月内拍摄。头发或镜框不得遮眼，不得以帽子遮头。数码照片禁止用软件改原图。背景须为单色、无另外布景。像素、格式、KB、DPI 与具体底色色值未写明。"
+  },
+  "sources": [
+    {
+      "url": "https://exam.topik.go.kr/nasdata/webnas/raonkeditordata/BBS/2025/10/20251031_093545671_74607.pdf",
+      "title": "NIIED: 2026 TOPIK implementation notice (photo rules, item 차)",
+      "checked": "2026-10-09"
+    }
+  ],
+  "status": "needs-review"
+}

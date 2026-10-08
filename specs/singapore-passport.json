@@ -1,0 +1,49 @@
+{
+  "id": "singapore-passport",
+  "name": {
+    "en": "Singapore passport photo (ICA e-Services upload)",
+    "zh": "新加坡护照照片（ICA 电子服务上传）"
+  },
+  "category": "passport",
+  "region": "SG",
+  "issuer": "Immigration & Checkpoints Authority of Singapore",
+  "photo": {
+    "pixels": {
+      "width": 400,
+      "height": 514,
+      "min_width": null,
+      "max_width": null
+    },
+    "print_mm": {
+      "width": null,
+      "height": null
+    },
+    "dpi": null,
+    "aspect": "400:514",
+    "head_ratio": null,
+    "background": [],
+    "color": "color"
+  },
+  "file": {
+    "formats": [
+      "jpg",
+      "heic",
+      "heif",
+      "png"
+    ],
+    "min_kb": null,
+    "max_kb": 8192
+  },
+  "notes": {
+    "en": "ICA Photo Guidelines: a new coloured photograph; recommended online upload size 400×514 pixels via e-Services; accepted extensions jpg, jpeg, heic, heif, png; maximum 8 MB (8192 KB). Do not alter or enhance facial features. Printed hardcopy photos must be matte or semi-matte; exact printed millimetres are not stated on this guidelines page (ICA forms used elsewhere state 35×45 mm — not copied here). Background hex and head ratio are not stated on the guidelines page. ICA states the requirements follow ISO/ICAO.",
+    "zh": "ICA 照片指引：须提交新的彩色照片；电子服务建议上传尺寸 400×514 像素；接受 jpg/jpeg/heic/heif/png；最大 8 MB（8192 KB）。不得改五官。纸质提交须亚光或半亚光；该指引页未写印刷毫米（其他 ICA 表格有 35×45 mm，本条未抄入）。底色色值与头部比例未写。ICA 称要求依据 ISO/ICAO。"
+  },
+  "sources": [
+    {
+      "url": "https://www.ica.gov.sg/photo-guidelines",
+      "title": "ICA Singapore: Photo guidelines",
+      "checked": "2026-10-09"
+    }
+  ],
+  "status": "needs-review"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "pets",
+  "name": {
+    "en": "PETS (Public English Test System) registration photo",
+    "zh": "全国英语等级考试报名照"
+  },
+  "category": "exam",
+  "region": "CN",
+  "issuer": "National Education Examinations Authority (NEEA) / PETS",
+  "photo": {
+    "pixels": {
+      "width": null,
+      "height": null,
+      "min_width": null,
+      "max_width": null
+    },
+    "print_mm": {
+      "width": 33,
+      "height": 48
+    },
+    "dpi": null,
+    "aspect": "11:16",
+    "head_ratio": {
+      "min": 0.667,
+      "max": 0.667
+    },
+    "background": [
+      "#FFFFFF"
+    ],
+    "color": "either"
+  },
+  "file": {
+    "formats": [],
+    "min_kb": 10,
+    "max_kb": 50
+  },
+  "notes": {
+    "en": "NEEA candidate notice: recent (within 6 months) front-facing bareheaded ID photo; white or blue background; 33 mm wide × 48 mm high; head occupies 2/3 of the photo height; file size 10–50 KB. File format, pixels, DPI, and colour vs grayscale are not stated.",
+    "zh": "教育部教育考试院考生须知：近 6 个月内正面免冠证件照，白底或蓝底，宽 33 mm、高 48 mm，头部占照片长度的 2/3，文件 10K–50K。未写格式、像素、DPI 及是否必须彩色。"
+  },
+  "sources": [
+    {
+      "url": "https://pets.neea.edu.cn/html1/folder/1507/1557-1.htm",
+      "title": "NEEA PETS: candidate notice (photo upload)",
+      "checked": "2026-10-09"
+    }
+  ],
+  "status": "needs-review"
+}
