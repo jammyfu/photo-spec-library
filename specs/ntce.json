@@ -1,0 +1,48 @@
+{
+  "id": "ntce",
+  "name": {
+    "en": "National Teacher Certificate Examination (NTCE) registration photo",
+    "zh": "中小学教师资格考试报名照"
+  },
+  "category": "exam",
+  "region": "CN",
+  "issuer": "National Education Examinations Authority (NEEA) / NTCE",
+  "photo": {
+    "pixels": {
+      "width": null,
+      "height": null,
+      "min_width": null,
+      "max_width": null
+    },
+    "print_mm": {
+      "width": null,
+      "height": null
+    },
+    "dpi": null,
+    "aspect": null,
+    "head_ratio": null,
+    "background": [
+      "#FFFFFF"
+    ],
+    "color": "color"
+  },
+  "file": {
+    "formats": [
+      "jpg"
+    ],
+    "min_kb": null,
+    "max_kb": 200
+  },
+  "notes": {
+    "en": "National registration-flow page: bareheaded, front-facing, colour, white background; JPG/JPEG; not larger than 200 KB. Pixel dimensions, print millimetres, DPI, minimum file size, and head ratio are not stated. Provincial announcements may add extra rules; this entry records only the national page.",
+    "zh": "国家报名流程页：免冠、正面、彩色、白底；JPG/JPEG；不大于 200 KB。未写像素、印刷毫米、DPI、最小文件与头部比例。省级公告可能另有要求，本条只记国家页。"
+  },
+  "sources": [
+    {
+      "url": "https://ntce.neea.edu.cn/html1/folder/1507/1077-1.htm",
+      "title": "NEEA NTCE: registration flow (photo upload)",
+      "checked": "2026-10-09"
+    }
+  ],
+  "status": "needs-review"
+}

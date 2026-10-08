@@ -1,0 +1,48 @@
+{
+  "id": "cpa-cn",
+  "name": {
+    "en": "CICPA Uniform CPA Examination registration photo",
+    "zh": "注册会计师全国统一考试报名照"
+  },
+  "category": "exam",
+  "region": "CN",
+  "issuer": "Chinese Institute of Certified Public Accountants (CICPA)",
+  "photo": {
+    "pixels": {
+      "width": 178,
+      "height": 220,
+      "min_width": null,
+      "max_width": null
+    },
+    "print_mm": {
+      "width": null,
+      "height": null
+    },
+    "dpi": 96,
+    "aspect": "89:110",
+    "head_ratio": null,
+    "background": [
+      "#FFFFFF"
+    ],
+    "color": "either"
+  },
+  "file": {
+    "formats": [
+      "jpg"
+    ],
+    "min_kb": 2,
+    "max_kb": 20
+  },
+  "notes": {
+    "en": "CICPA 2026 registration notice for first-time applicants: photo taken within the last year; “1-cun” front-facing bareheaded white-background ID photo; JPG/JPEG; 2–20 KB; 178×220 pixels; resolution at least 96×96 dots per inch. Print millimetres are not stated (the “1-cun” label is not converted here). Colour vs grayscale is not stated. The photo is used on the admission ticket and the qualification certificate. Pixel/mm/DPI consistency is not checked because print_mm is null.",
+    "zh": "中注协 2026 年报名通知（首次报名）：最近 1 年内 1 寸正面免冠白底证件照；jpg/jpeg；2–20K；178×220 像素；分辨率至少每英寸 96×96 点。未写印刷毫米（“1 寸”未换算）。未写必须彩色。用于准考证与合格证书。因无印刷毫米，不做像素/毫米/DPI 一致性校验。"
+  },
+  "sources": [
+    {
+      "url": "https://cicpa.org.cn/xxfb/news/202603/t20260311_65853.html",
+      "title": "CICPA: 2026 Uniform CPA Examination registration reminder (photo specifications)",
+      "checked": "2026-10-09"
+    }
+  ],
+  "status": "needs-review"
+}

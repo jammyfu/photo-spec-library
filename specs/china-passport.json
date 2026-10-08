@@ -1,0 +1,54 @@
+{
+  "id": "china-passport",
+  "name": {
+    "en": "People's Republic of China passport / travel-document photo",
+    "zh": "中华人民共和国护照 / 旅行证照片"
+  },
+  "category": "passport",
+  "region": "CN",
+  "issuer": "National Immigration Administration / Chinese diplomatic missions",
+  "photo": {
+    "pixels": {
+      "width": null,
+      "height": null,
+      "min_width": null,
+      "max_width": null
+    },
+    "print_mm": {
+      "width": 33,
+      "height": 48
+    },
+    "dpi": null,
+    "aspect": "11:16",
+    "head_ratio": {
+      "min": 0.583,
+      "max": 0.688
+    },
+    "background": [
+      "#FFFFFF"
+    ],
+    "color": "color"
+  },
+  "file": {
+    "formats": [],
+    "min_kb": null,
+    "max_kb": null
+  },
+  "notes": {
+    "en": "Chinese consular page (same wording on multiple MFA missions): colour print taken within 6 months; white background; 33 mm wide × 48 mm high; head width 15–22 mm; head height (chin to crown) 28–33 mm (about 0.583–0.688 of 48 mm); 3–5 mm from crown to the top edge; at least 7 mm from chin to the bottom edge. Full face visible; glasses allowed if untinted and without glare. Pixel size, file limits, and DPI are not stated. Domestic applications follow the NIA “出入境证件相片照相指引” archive and may be captured in office; this entry records the published millimetre rules used by missions.",
+    "zh": "中国驻外使领馆页（多馆表述一致）：6 个月内彩色纸质近照；白底；宽 33 mm、高 48 mm；头部宽 15–22 mm；头部高（下巴到头顶）28–33 mm（约占 48 mm 的 0.583–0.688）；头顶到上边 3–5 mm；下巴到下边不少于 7 mm。须含整个面部；可戴无色、无反光眼镜。未写像素、文件限制与 DPI。境内申请另循国家移民管理局《出入境证件相片照相指引》，可能现场采集；本条记录馆方公布的毫米规则。"
+  },
+  "sources": [
+    {
+      "url": "https://khonkaen.china-consulate.gov.cn/lsgz/lszj/hz/hzlxzzpyq/202502/t20250223_11560680.htm",
+      "title": "Chinese Consulate-General in Khon Kaen: electronic passport portrait specifications",
+      "checked": "2026-10-09"
+    },
+    {
+      "url": "https://www.nia.gov.cn/n741445/n741619/n894511/c896346/content.html",
+      "title": "National Immigration Administration: entry-exit document photograph guide (download index)",
+      "checked": "2026-10-09"
+    }
+  ],
+  "status": "needs-review"
+}

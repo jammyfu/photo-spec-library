@@ -1,0 +1,63 @@
+{
+  "id": "us-visa-ds-160",
+  "name": {
+    "en": "U.S. nonimmigrant visa photo (DS-160 digital upload)",
+    "zh": "美国非移民签证照片（DS-160 数字上传）"
+  },
+  "category": "visa",
+  "region": "US",
+  "issuer": "U.S. Department of State — Bureau of Consular Affairs",
+  "photo": {
+    "pixels": {
+      "width": null,
+      "height": null,
+      "min_width": 600,
+      "max_width": 1200,
+      "min_height": 600,
+      "max_height": 1200
+    },
+    "print_mm": {
+      "width": 51,
+      "height": 51
+    },
+    "dpi": null,
+    "aspect": "1:1",
+    "head_ratio": {
+      "min": 0.5,
+      "max": 0.69
+    },
+    "background": [
+      "#FFFFFF"
+    ],
+    "color": "color"
+  },
+  "file": {
+    "formats": [
+      "jpg"
+    ],
+    "min_kb": null,
+    "max_kb": 240
+  },
+  "notes": {
+    "en": "Digital image: square JPEG; 600×600 to 1200×1200 pixels; 24-bit sRGB; ≤240 KB; compression ratio ≤20:1. Head (top of hair to chin) 50–69% of image height; eyes 56–69% of image height from the bottom (eye band not stored as a separate field). DPI is left null because the digital-upload table does not require a DPI; if you scan an existing 2×2 inch (51×51 mm) print, the same page says to scan at 300 ppi. Composition template matches the same square pixel range. Glasses have not been allowed in visa photos since 1 November 2016. Background colour is required to be plain; a white/off-white background is the usual composition on the same State Department photo pages. Minimum file size is not stated.",
+    "zh": "数字图像：正方形 JPEG；600×600 至 1200×1200 像素；24 位 sRGB；≤240 KB；压缩比 ≤20:1。头部（发顶到下巴）占图像高度 50–69%；眼睛高度为自底部起 56–69%（眼位未单列字段）。DPI 留空，因为数字上传表未要求 DPI；若扫描已有 2×2 英寸（51×51 mm）纸质照，同页要求 300 ppi。构图模板与上述像素范围一致。2016-11-01 起签证照片不得戴眼镜。底色须平整；国务院照片页通常为白/灰白。未写最小文件。"
+  },
+  "sources": [
+    {
+      "url": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/photos/digital-image-requirements.html",
+      "title": "U.S. Department of State: Digital image requirements",
+      "checked": "2026-10-09"
+    },
+    {
+      "url": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/photos/photo-composition-template.html",
+      "title": "U.S. Department of State: Photo composition template",
+      "checked": "2026-10-09"
+    },
+    {
+      "url": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/photos.html",
+      "title": "U.S. Department of State: Photo requirements (DS-160 upload)",
+      "checked": "2026-10-09"
+    }
+  ],
+  "status": "verified"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "hsk",
+  "name": {
+    "en": "HSK registration photo",
+    "zh": "汉语水平考试报名照"
+  },
+  "category": "exam",
+  "region": "CN",
+  "issuer": "Chinese Testing International (chinesetest.cn)",
+  "photo": {
+    "pixels": {
+      "width": null,
+      "height": null,
+      "min_width": null,
+      "max_width": null
+    },
+    "print_mm": {
+      "width": null,
+      "height": null
+    },
+    "dpi": null,
+    "aspect": null,
+    "head_ratio": null,
+    "background": [
+      "#FFFFFF"
+    ],
+    "color": "color"
+  },
+  "file": {
+    "formats": [
+      "jpg"
+    ],
+    "min_kb": 50,
+    "max_kb": 500
+  },
+  "notes": {
+    "en": "Current registration page (fetched 2026-10-09): recent (within 6 months) colour bareheaded official photo, white background preferred; JPG; 50–500 KB. No hats, headscarves, hair bands, or sunglasses except for religious reasons; no over-editing, Photoshop, or AI alteration. Pixel dimensions, print millimetres, DPI, and head ratio are not stated on that page. An older HSK candidate handbook on the same domain stated a 100 KB upper limit and 40 mm × 30 mm paper photos; those figures were not used here because they conflict with the current page. Status is needs-review for that conflict and the missing dimensions.",
+    "zh": "现行报名页（2026-10-09 核对）：近 6 个月内彩色免冠证件照，白底为宜；JPG；50–500 KB。除宗教原因外不得戴帽、头巾、发带、墨镜；不得过度修图、PS 或 AI 改图。该页未写像素、印刷毫米、DPI 与头部比例。同站旧版考生手册曾写 100 KB 上限与 40 mm × 30 mm 纸质照，与现行页冲突，本条未采用。因冲突及缺尺寸，标为 needs-review。"
+  },
+  "sources": [
+    {
+      "url": "https://www.chinesetest.cn/regulation",
+      "title": "Chinese Testing International: registration rules (photo upload)",
+      "checked": "2026-10-09"
+    }
+  ],
+  "status": "needs-review"
+}

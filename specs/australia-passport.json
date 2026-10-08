@@ -1,0 +1,50 @@
+{
+  "id": "australia-passport",
+  "name": {
+    "en": "Australian passport photo",
+    "zh": "澳大利亚护照照片"
+  },
+  "category": "passport",
+  "region": "AU",
+  "issuer": "Australian Passport Office",
+  "photo": {
+    "pixels": {
+      "width": null,
+      "height": null,
+      "min_width": null,
+      "max_width": null
+    },
+    "print_mm": {
+      "width": null,
+      "height": null,
+      "min_width": 35,
+      "max_width": 40,
+      "min_height": 45,
+      "max_height": 50
+    },
+    "dpi": null,
+    "aspect": null,
+    "head_ratio": null,
+    "background": [
+      "#FFFFFF"
+    ],
+    "color": "color"
+  },
+  "file": {
+    "formats": [],
+    "min_kb": null,
+    "max_kb": null
+  },
+  "notes": {
+    "en": "Two good-quality colour prints: 35–40 mm wide and 45–50 mm high; face (chin to crown) 32–36 mm. Because photo height is a range, head_ratio is left null. Less than 6 months old; glossy heavy-weight paper, not inkjet; plain white or light grey background. No glasses except for documented medical reasons. Pixel size, file limits, and DPI are not stated. Exact width/height are left null; ranges are in the optional min/max print fields.",
+    "zh": "两张合格彩色照片：宽 35–40 mm、高 45–50 mm；面部（下巴到头顶）32–36 mm。因高度为区间，head_ratio 留空。不超过 6 个月；厚铜版光面、非喷墨；白或浅灰纯背景。除有医疗证明外不戴眼镜。未写像素、文件限制与 DPI。精确宽高留空，区间写在可选 min/max 字段。"
+  },
+  "sources": [
+    {
+      "url": "https://www.passports.gov.au/passports-explained/how-apply/passport-photo-guidelines",
+      "title": "Australian Passport Office: Passport photos",
+      "checked": "2026-10-09"
+    }
+  ],
+  "status": "needs-review"
+}

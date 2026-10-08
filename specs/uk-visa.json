@@ -1,0 +1,49 @@
+{
+  "id": "uk-visa",
+  "name": {
+    "en": "UK visa / permission digital face photo",
+    "zh": "英国签证或许可数字面部照片"
+  },
+  "category": "visa",
+  "region": "GB",
+  "issuer": "UK Visas and Immigration / GOV.UK",
+  "photo": {
+    "pixels": {
+      "width": null,
+      "height": null,
+      "min_width": 600,
+      "max_width": null,
+      "min_height": 750
+    },
+    "print_mm": {
+      "width": null,
+      "height": null
+    },
+    "dpi": null,
+    "aspect": "4:5",
+    "head_ratio": null,
+    "background": [
+      "#FFFFFF"
+    ],
+    "color": "color"
+  },
+  "file": {
+    "formats": [
+      "jpg"
+    ],
+    "min_kb": 50,
+    "max_kb": 6144
+  },
+  "notes": {
+    "en": "UKVI guidance (published 12 February 2026): colour JPG/JPEG; at least 600×750 pixels; 50 KB–6 MB; vertically oriented; not mirrored. Plain light-coloured background (hex not named; #FFFFFF stored as a default). Must show head, shoulders and upper body; not a scan of another photo or of the passport image. Print millimetres, DPI, and head ratio are not stated. 6 MB is recorded as 6144 KB (1024-based).",
+    "zh": "UKVI 指引（2026-02-12）：彩色 JPG/JPEG；至少 600×750 像素；50 KB–6 MB；竖向、不可镜像。浅色纯背景（未给色值，默认记 #FFFFFF）。须含头、肩与上身；不得翻拍其他照片或护照页。未写印刷毫米、DPI 与头部比例。6 MB 记为 6144 KB。"
+  },
+  "sources": [
+    {
+      "url": "https://www.gov.uk/guidance/how-to-take-a-photo-for-a-visa-application-or-permission",
+      "title": "GOV.UK: Take a photo of your face for a visa application or permission",
+      "checked": "2026-10-09"
+    }
+  ],
+  "status": "needs-review"
+}

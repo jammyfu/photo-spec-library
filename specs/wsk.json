@@ -1,0 +1,49 @@
+{
+  "id": "wsk",
+  "name": {
+    "en": "WSK (National Foreign Language Proficiency Test) registration photo",
+    "zh": "全国外语水平考试报名照"
+  },
+  "category": "exam",
+  "region": "CN",
+  "issuer": "National Education Examinations Authority (NEEA) / WSK",
+  "photo": {
+    "pixels": {
+      "width": null,
+      "height": null,
+      "min_width": null,
+      "max_width": null
+    },
+    "print_mm": {
+      "width": 33,
+      "height": 48
+    },
+    "dpi": null,
+    "aspect": "11:16",
+    "head_ratio": {
+      "min": 0.667,
+      "max": 0.667
+    },
+    "background": [
+      "#FFFFFF"
+    ],
+    "color": "either"
+  },
+  "file": {
+    "formats": [],
+    "min_kb": 10,
+    "max_kb": 30
+  },
+  "notes": {
+    "en": "NEEA candidate notice: recent (within 6 months) front-facing bareheaded ID photo; clear; white or blue background; 33 mm wide × 48 mm high; head occupies 2/3 of the photo height; file size 10–30 KB. File format and pixel dimensions are not stated. Colour vs grayscale is not stated. Used on the admission ticket and certificates.",
+    "zh": "教育部教育考试院考生须知：近 6 个月内正面免冠证件照，清晰，白底或蓝底，宽 33 mm、高 48 mm，头部占照片长度的 2/3，文件 10K–30K。未写文件格式与像素。未写必须彩色。照片用于准考证与证书。"
+  },
+  "sources": [
+    {
+      "url": "https://wsk.neea.edu.cn/html1/folder/1507/1633-1.htm",
+      "title": "NEEA WSK: candidate notice (photo upload)",
+      "checked": "2026-10-09"
+    }
+  ],
+  "status": "needs-review"
+}

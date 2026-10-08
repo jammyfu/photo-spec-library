@@ -1,0 +1,34 @@
+name: Spec correction
+description: Report a wrong number, missing official value, or dead official URL
+title: "[spec] "
+labels: ["spec-correction"]
+body:
+  - type: input
+    id: spec_id
+    attributes:
+      label: Spec id
+      description: The `id` field, for example `jlpt` or `us-visa-ds-160`.
+      placeholder: us-passport
+    validations:
+      required: true
+  - type: input
+    id: official_url
+    attributes:
+      label: Official issuer URL
+      description: Government or exam-body page that states the correct value.
+    validations:
+      required: true
+  - type: textarea
+    id: what_is_wrong
+    attributes:
+      label: What is wrong
+      description: Which field, the current value in this library, and the value on the official page.
+    validations:
+      required: true
+  - type: textarea
+    id: quote
+    attributes:
+      label: Quote from the official page
+      description: Copy the sentence or table cell that states the number. Do not use third-party blogs.
+    validations:
+      required: true
