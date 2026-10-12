@@ -2,7 +2,7 @@
   "id": "cn-legal-professional",
   "name": {
     "en": "National Unified Legal Professional Qualification Examination registration photo",
-    "zh": "国家统一法律职业资格考试报名照"
+    "zh": "\u56fd\u5bb6\u7edf\u4e00\u6cd5\u5f8b\u804c\u4e1a\u8d44\u683c\u8003\u8bd5\u62a5\u540d\u7167"
   },
   "category": "exam",
   "region": "CN",
@@ -21,28 +21,22 @@
     "dpi": null,
     "aspect": "413:626",
     "head_ratio": null,
-    "background": [
-      "#FFFFFF"
-    ],
+    "background": ["#FFFFFF"],
     "color": "color"
   },
   "file": {
-    "formats": [
-      "jpg"
-    ],
-    "min_kb": 40,
-    "max_kb": 100
+    "formats": [],
+    "min_kb": null,
+    "max_kb": null
   },
   "notes": {
-    "en": "Provincial announcement published on the Ministry of Justice site for the 2025 objective-item exam (the photo rule is the national format): 413×626 pixels; colour; red, blue, or white background; front-facing, bareheaded; taken within 3 months; JPG; 40–100 KB. Head and shoulders, both ears and both eyebrows visible; head about two-thirds of the photo (approximate wording, so head_ratio is left null). No accessories or thick frames that hide the eyes; no stretching or beautification. Print millimetres and DPI are not stated. Only white is stored as a hex value.",
-    "zh": "司法部门户刊登的 2025 年客观题考试公告（照片为全国统一格式）：宽 413 × 高 626 像素；彩色；红/蓝/白底均可；正面免冠；近三个月；JPG；40–100 KB。须显示双肩、双耳、双眉；头部约占照片约 2/3（“约”故 head_ratio 留空）。不得佩戴遮挡五官的饰品或粗框眼镜，不得拉伸、美化。未写印刷毫米与 DPI。色值只记白底。"
+    "en": "Ministry of Justice notice (checked 2026-10-12). Verbatim: 413px x 626px; colour; red, blue or white background. JPG, 40-100 KB and head about two-thirds are not in this quote. needs-review.",
+    "zh": "\u53f8\u6cd5\u90e8\u516c\u544a\uff082026-10-12\uff09\u3002\u539f\u6587\uff1a\u5bbd413\u50cf\u7d20\u00d7\u9ad8626\u50cf\u7d20\uff1b\u5f69\u8272\uff1b\u7ea2\u3001\u84dd\u3001\u767d\u5e95\u8272\u5747\u53ef\u3002JPG\u300140-100KB \u4e0d\u5728\u672c\u539f\u6587\u3002needs-review\u3002"
   },
-  "sources": [
-    {
-      "url": "https://www.moj.gov.cn/jgsz/jgszzsdw/zsdwgjsfkszx/gjsfkszxdt/202506/t20250613_520865.html",
-      "title": "Ministry of Justice: Jilin Justice Department announcement on the 2025 National Unified Legal Professional Qualification objective-item exam (electronic photo rules)",
-      "checked": "2026-10-09"
-    }
-  ],
+  "sources": [{
+    "url": "https://www.moj.gov.cn/pub/sfbgwapp/zwgk/tzggApp/202606/t20260605_536064.html",
+    "title": "Ministry of Justice: National Unified Legal Professional Qualification Examination notice",
+    "checked": "2026-10-12"
+  }],
   "status": "needs-review"
 }

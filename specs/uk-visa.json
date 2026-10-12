@@ -2,7 +2,7 @@
   "id": "uk-visa",
   "name": {
     "en": "UK visa / permission digital face photo",
-    "zh": "英国签证或许可数字面部照片"
+    "zh": "\u82f1\u56fd\u7b7e\u8bc1\u6216\u8bb8\u53ef\u6570\u5b57\u9762\u90e8\u7167\u7247"
   },
   "category": "visa",
   "region": "GB",
@@ -22,28 +22,22 @@
     "dpi": null,
     "aspect": "4:5",
     "head_ratio": null,
-    "background": [
-      "#FFFFFF"
-    ],
+    "background": [],
     "color": "color"
   },
   "file": {
-    "formats": [
-      "jpg"
-    ],
+    "formats": ["jpg"],
     "min_kb": 50,
     "max_kb": 6144
   },
   "notes": {
-    "en": "UKVI guidance (published 12 February 2026): colour JPG/JPEG; at least 600×750 pixels; 50 KB–6 MB; vertically oriented; not mirrored. Plain light-coloured background (hex not named; #FFFFFF stored as a default). Must show head, shoulders and upper body; not a scan of another photo or of the passport image. Print millimetres, DPI, and head ratio are not stated. 6 MB is recorded as 6144 KB (1024-based).",
-    "zh": "UKVI 指引（2026-02-12）：彩色 JPG/JPEG；至少 600×750 像素；50 KB–6 MB；竖向、不可镜像。浅色纯背景（未给色值，默认记 #FFFFFF）。须含头、肩与上身；不得翻拍其他照片或护照页。未写印刷毫米、DPI 与头部比例。6 MB 记为 6144 KB。"
+    "en": "UKVI guidance (checked 2026-10-12). Verbatim: at least 600 pixels wide and 750 pixels tall; at least 50KB and no more than 6MB; a jpg or jpeg file; plain light-coloured background. Stored: min 600x750 px; JPG/JPEG; 50 KB-6 MB (6 MB recorded as 6144 KB; 1000 vs 1024 not stated). Light-coloured background is not a named hex, so background stays empty. Print millimetres, DPI and head ratio are not in that quote. Missing a named background keeps needs-review.",
+    "zh": "UKVI \u6307\u5f15\uff082026-10-12 \u6838\u5bf9\uff09. \u539f\u6587: at least 600 pixels wide and 750 pixels tall; at least 50KB and no more than 6MB; a jpg or jpeg file; plain light-coloured background. \u53ea\u8bb0: 600x750; JPG/JPEG; 50 KB-6 MB. \u6d45\u8272\u80cc\u666f\u65e0\u8272\u503c. needs-review."
   },
-  "sources": [
-    {
-      "url": "https://www.gov.uk/guidance/how-to-take-a-photo-for-a-visa-application-or-permission",
-      "title": "GOV.UK: Take a photo of your face for a visa application or permission",
-      "checked": "2026-10-09"
-    }
-  ],
+  "sources": [{
+    "url": "https://www.gov.uk/guidance/how-to-take-a-photo-for-a-visa-application-or-permission",
+    "title": "GOV.UK: Take a photo of your face for a visa application or permission",
+    "checked": "2026-10-12"
+  }],
   "status": "needs-review"
 }
