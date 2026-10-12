@@ -2,7 +2,7 @@
   "id": "wsk",
   "name": {
     "en": "WSK (National Foreign Language Proficiency Test) registration photo",
-    "zh": "全国外语水平考试报名照"
+    "zh": "\u5168\u56fd\u5916\u8bed\u6c34\u5e73\u8003\u8bd5\u62a5\u540d\u7167"
   },
   "category": "exam",
   "region": "CN",
@@ -24,9 +24,7 @@
       "min": 0.667,
       "max": 0.667
     },
-    "background": [
-      "#FFFFFF"
-    ],
+    "background": ["#FFFFFF"],
     "color": "either"
   },
   "file": {
@@ -35,15 +33,13 @@
     "max_kb": 30
   },
   "notes": {
-    "en": "NEEA candidate notice: recent (within 6 months) front-facing bareheaded ID photo; clear; white or blue background; 33 mm wide × 48 mm high; head occupies 2/3 of the photo height; file size 10–30 KB. File format and pixel dimensions are not stated. Colour vs grayscale is not stated. Used on the admission ticket and certificates.",
-    "zh": "教育部教育考试院考生须知：近 6 个月内正面免冠证件照，清晰，白底或蓝底，宽 33 mm、高 48 mm，头部占照片长度的 2/3，文件 10K–30K。未写文件格式与像素。未写必须彩色。照片用于准考证与证书。"
+    "en": "NEEA WSK notice (checked 2026-10-12). Verbatim: white or blue background, 33mm x 48mm, head 2/3 of photo height, file 10K-30K. Format and pixels are not in that quote. needs-review.",
+    "zh": "WSK \u8003\u751f\u987b\u77e5\uff082026-10-12\uff09\u3002\u539f\u6587\uff1a\u80cc\u666f\u767d\u8272\u6216\u84dd\u8272\uff0c\u5bbd33mm\u3001\u9ad848mm\uff0c\u5934\u90e8\u5360\u7167\u7247\u957f\u5ea6\u76842/3\uff0c\u6587\u4ef610K-30K\u3002\u65e0\u683c\u5f0f\u4e0e\u50cf\u7d20\u3002needs-review\u3002"
   },
-  "sources": [
-    {
-      "url": "https://wsk.neea.edu.cn/html1/folder/1507/1633-1.htm",
-      "title": "NEEA WSK: candidate notice (photo upload)",
-      "checked": "2026-10-09"
-    }
-  ],
+  "sources": [{
+    "url": "https://wsk.neea.edu.cn/xhtml1/folder/1507/1633-1.htm",
+    "title": "NEEA WSK: candidate notice (photo upload)",
+    "checked": "2026-10-12"
+  }],
   "status": "needs-review"
 }
