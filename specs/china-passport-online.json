@@ -1,0 +1,46 @@
+{
+  "id": "china-passport-online",
+  "name": {
+    "en": "Mainland China passport photo (online upload)",
+    "zh": "中国大陆护照照片（网上办理）"
+  },
+  "category": "passport",
+  "region": "CN",
+  "issuer": "National Immigration Administration",
+  "photo": {
+    "pixels": {
+      "width": null,
+      "height": null,
+      "min_width": 400,
+      "max_width": 1000
+    },
+    "print_mm": {
+      "width": null,
+      "height": null
+    },
+    "dpi": null,
+    "aspect": "3:4",
+    "head_ratio": null,
+    "background": [
+      "#FFFFFF"
+    ],
+    "color": "color"
+  },
+  "file": {
+    "formats": [],
+    "min_kb": null,
+    "max_kb": null
+  },
+  "notes": {
+    "en": "NIA \u201c\u5168\u7a0b\u7f51\u529e\u201d photo guide (checked 2026-10-12). Verbatim: \u300c\u9009\u4e00\u4e2a \u767d\u8272 \u6216 \u6d45\u84dd\u8272 \u7684\u80cc\u666f\u300d\u300c\u7167\u7247\u5bbd\u5ea6\u5e94\u5728 400\u50cf\u7d20\uff5e1000\u50cf\u7d20\u4e4b\u95f4\u300d\u300c\u5bbd\u9ad8\u6bd4\u4e3a3:4\u300d\u300c\u5934\u50cf\u5bbd\u5ea6\u5360\u56fe\u7247\u5bbd\u5ea6\u76842/3 \u8f83\u4e3a\u5408\u9002\u300d. White stored as #FFFFFF; light-blue hex is not named. \u201c\u8f83\u4e3a\u5408\u9002\u201d is not stored as a required head-height ratio. File format, byte limits (including 20\u201380 KB), print millimetres, DPI and an exact export height are not in that quote. Missing format and file size keeps needs-review.",
+    "zh": "\u56fd\u5bb6\u79fb\u6c11\u7ba1\u7406\u5c40\u300a\u51fa\u5165\u5883\u8bc1\u4ef6\u300c\u5168\u7a0b\u7f51\u529e\u300d\u7167\u7247\u63d0\u4ea4\u6307\u5f15\u300b\uff082026-10-12 \u6838\u5bf9\uff09\u3002\u539f\u6587\uff1a\u300c\u9009\u4e00\u4e2a \u767d\u8272 \u6216 \u6d45\u84dd\u8272 \u7684\u80cc\u666f\u300d\u300c\u7167\u7247\u5bbd\u5ea6\u5e94\u5728 400\u50cf\u7d20\uff5e1000\u50cf\u7d20\u4e4b\u95f4\u300d\u300c\u5bbd\u9ad8\u6bd4\u4e3a3:4\u300d\u300c\u5934\u50cf\u5bbd\u5ea6\u5360\u56fe\u7247\u5bbd\u5ea6\u76842/3 \u8f83\u4e3a\u5408\u9002\u300d\u3002\u767d\u8272\u8bb0\u4e3a #FFFFFF\uff1b\u6d45\u84dd\u65e0\u8272\u503c\u3002\u300c\u8f83\u4e3a\u5408\u9002\u300d\u4e0d\u8bb0\u4e3a\u5fc5\u987b\u5934\u90e8\u6bd4\u4f8b\u3002\u8be5\u539f\u6587\u6ca1\u6709\u683c\u5f0f\u3001\u5b57\u8282\u4e0a\u4e0b\u9650\uff08\u542b 20\u201380 KB\uff09\u3001\u5370\u5237\u6beb\u7c73\u3001DPI \u4e0e\u7cbe\u786e\u9ad8\u5ea6\u3002\u7f3a\u683c\u5f0f\u4e0e\u6587\u4ef6\u5927\u5c0f\uff0c\u4fdd\u6301 needs-review\u3002"
+  },
+  "sources": [
+    {
+      "url": "https://s.nia.gov.cn/mps/mbbszy/qcwbzpzy/202405/t20240528_1001.html",
+      "title": "National Immigration Administration: entry-exit document full-online photo guide",
+      "checked": "2026-10-12"
+    }
+  ],
+  "status": "needs-review"
+}
