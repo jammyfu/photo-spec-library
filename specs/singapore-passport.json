@@ -2,7 +2,7 @@
   "id": "singapore-passport",
   "name": {
     "en": "Singapore passport photo (ICA e-Services upload)",
-    "zh": "新加坡护照照片（ICA 电子服务上传）"
+    "zh": "\u65b0\u52a0\u5761\u62a4\u7167\u7167\u7247\uff08ICA \u7535\u5b50\u670d\u52a1\u4e0a\u4f20\uff09"
   },
   "category": "passport",
   "region": "SG",
@@ -25,25 +25,18 @@
     "color": "color"
   },
   "file": {
-    "formats": [
-      "jpg",
-      "heic",
-      "heif",
-      "png"
-    ],
+    "formats": ["jpg", "heic", "heif", "png"],
     "min_kb": null,
     "max_kb": 8192
   },
   "notes": {
-    "en": "ICA Photo Guidelines: a new coloured photograph; recommended online upload size 400×514 pixels via e-Services; accepted extensions jpg, jpeg, heic, heif, png; maximum 8 MB (8192 KB). Do not alter or enhance facial features. Printed hardcopy photos must be matte or semi-matte; exact printed millimetres are not stated on this guidelines page (ICA forms used elsewhere state 35×45 mm — not copied here). Background hex and head ratio are not stated on the guidelines page. ICA states the requirements follow ISO/ICAO.",
-    "zh": "ICA 照片指引：须提交新的彩色照片；电子服务建议上传尺寸 400×514 像素；接受 jpg/jpeg/heic/heif/png；最大 8 MB（8192 KB）。不得改五官。纸质提交须亚光或半亚光；该指引页未写印刷毫米（其他 ICA 表格有 35×45 mm，本条未抄入）。底色色值与头部比例未写。ICA 称要求依据 ISO/ICAO。"
+    "en": "ICA Photo Guidelines HTML (checked 2026-10-12). Verbatim: 400X514 pixels for e-Services; jpg, jpeg, heic, heif and png; Maximum file size 8MB. 35x45 mm and white background are not in the captured HTML. needs-review.",
+    "zh": "ICA HTML\uff082026-10-12\uff09\u3002\u539f\u6587\uff1a400X514 pixels; jpg/jpeg/heic/heif/png; 8MB\u3002\u6293\u5230\u7684 HTML \u6ca1\u6709 35x45 mm \u4e0e\u767d\u5e95\u3002needs-review\u3002"
   },
-  "sources": [
-    {
-      "url": "https://www.ica.gov.sg/photo-guidelines",
-      "title": "ICA Singapore: Photo guidelines",
-      "checked": "2026-10-09"
-    }
-  ],
+  "sources": [{
+    "url": "https://www.ica.gov.sg/photo-guidelines",
+    "title": "ICA Singapore: Photo guidelines",
+    "checked": "2026-10-12"
+  }],
   "status": "needs-review"
 }
