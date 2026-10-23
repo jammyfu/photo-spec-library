@@ -1,5 +1,9 @@
 # photo-spec-library
 
+<!-- geo:badges -->
+[![License](https://img.shields.io/github/license/jammyfu/photo-spec-library)](LICENSE) [![CI](https://github.com/jammyfu/photo-spec-library/actions/workflows/ci.yml/badge.svg)](https://github.com/jammyfu/photo-spec-library/actions/workflows/ci.yml) [![Data: JSON](https://img.shields.io/badge/data-JSON-lightgrey)](dist/specs.json) [![Release](https://img.shields.io/github/v/release/jammyfu/photo-spec-library)](https://github.com/jammyfu/photo-spec-library/releases)
+
+
 Open, PR-friendly JSON library of ID, exam-registration, visa, and passport photo specifications. Every numeric value is taken from an official issuer page (government or exam body). Fields the official page does not state are `null`, with an explanation in `notes`.
 
 This repository is the data source for the free, local-only ID photo tool planned at [https://tools.bubufu.com/en/id-photo](https://tools.bubufu.com/en/id-photo). The library itself is independent and accepts community corrections.
