@@ -1,0 +1,9 @@
+# photo-spec-library
+
+> Open, PR-friendly JSON library of ID, exam-registration, visa and passport photo specifications (size, pixels, background, head ratio, file limits). Every numeric value comes from an official issuer page; unstated fields are `null` with a note. MIT license.
+
+- Repository: https://github.com/jammyfu/photo-spec-library
+- Bundle: `dist/specs.json` (`{ version, generated, specs }`), one file per spec in `specs/<id>.json`
+
+## Use
+Read `dist/specs.json` directly, or fetch a single `specs/<id>.json`. Corrections go through the spec-correction issue template or a PR with the official source URL.
