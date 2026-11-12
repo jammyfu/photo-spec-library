@@ -7,3 +7,12 @@
 
 ## Use
 Read `dist/specs.json` directly, or fetch a single `specs/<id>.json`. Corrections go through the spec-correction issue template or a PR with the official source URL.
+
+## Reading guides
+- en: https://github.com/jammyfu/photo-spec-library/blob/main/docs/README.en.md
+- zh-CN: https://github.com/jammyfu/photo-spec-library/blob/main/docs/README.zh-CN.md
+- zh-TW: https://github.com/jammyfu/photo-spec-library/blob/main/docs/README.zh-TW.md
+- ja: https://github.com/jammyfu/photo-spec-library/blob/main/docs/README.ja.md
+- ko: https://github.com/jammyfu/photo-spec-library/blob/main/docs/README.ko.md
+
+These translate the reader guide only. Consult the repository README for corpus/UI language and licensing limitations.
