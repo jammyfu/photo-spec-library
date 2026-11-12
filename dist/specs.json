@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generated": "2026-10-08",
+  "generated": "2026-11-12",
   "specs": [
     {
       "id": "australia-passport",
@@ -156,6 +156,52 @@
       "status": "needs-review"
     },
     {
+      "id": "china-passport-online",
+      "name": {
+        "en": "Mainland China passport photo (online upload)",
+        "zh": "中国大陆护照照片（网上办理）"
+      },
+      "category": "passport",
+      "region": "CN",
+      "issuer": "National Immigration Administration",
+      "photo": {
+        "pixels": {
+          "width": null,
+          "height": null,
+          "min_width": 400,
+          "max_width": 1000
+        },
+        "print_mm": {
+          "width": null,
+          "height": null
+        },
+        "dpi": null,
+        "aspect": "3:4",
+        "head_ratio": null,
+        "background": [
+          "#FFFFFF"
+        ],
+        "color": "color"
+      },
+      "file": {
+        "formats": [],
+        "min_kb": null,
+        "max_kb": null
+      },
+      "notes": {
+        "en": "NIA “全程网办” photo guide (checked 2026-10-12). Verbatim: 「选一个 白色 或 浅蓝色 的背景」「照片宽度应在 400像素～1000像素之间」「宽高比为3:4」「头像宽度占图片宽度的2/3 较为合适」. White stored as #FFFFFF; light-blue hex is not named. “较为合适” is not stored as a required head-height ratio. File format, byte limits (including 20–80 KB), print millimetres, DPI and an exact export height are not in that quote. Missing format and file size keeps needs-review.",
+        "zh": "国家移民管理局《出入境证件「全程网办」照片提交指引》（2026-10-12 核对）。原文：「选一个 白色 或 浅蓝色 的背景」「照片宽度应在 400像素～1000像素之间」「宽高比为3:4」「头像宽度占图片宽度的2/3 较为合适」。白色记为 #FFFFFF；浅蓝无色值。「较为合适」不记为必须头部比例。该原文没有格式、字节上下限（含 20–80 KB）、印刷毫米、DPI 与精确高度。缺格式与文件大小，保持 needs-review。"
+      },
+      "sources": [
+        {
+          "url": "https://s.nia.gov.cn/mps/mbbszy/qcwbzpzy/202405/t20240528_1001.html",
+          "title": "National Immigration Administration: entry-exit document full-online photo guide",
+          "checked": "2026-10-12"
+        }
+      ],
+      "status": "needs-review"
+    },
+    {
       "id": "cn-civil-service",
       "name": {
         "en": "National civil service exam confirmation photo (source image)",
@@ -238,21 +284,19 @@
         "color": "color"
       },
       "file": {
-        "formats": [
-          "jpg"
-        ],
-        "min_kb": 40,
-        "max_kb": 100
+        "formats": [],
+        "min_kb": null,
+        "max_kb": null
       },
       "notes": {
-        "en": "Provincial announcement published on the Ministry of Justice site for the 2025 objective-item exam (the photo rule is the national format): 413×626 pixels; colour; red, blue, or white background; front-facing, bareheaded; taken within 3 months; JPG; 40–100 KB. Head and shoulders, both ears and both eyebrows visible; head about two-thirds of the photo (approximate wording, so head_ratio is left null). No accessories or thick frames that hide the eyes; no stretching or beautification. Print millimetres and DPI are not stated. Only white is stored as a hex value.",
-        "zh": "司法部门户刊登的 2025 年客观题考试公告（照片为全国统一格式）：宽 413 × 高 626 像素；彩色；红/蓝/白底均可；正面免冠；近三个月；JPG；40–100 KB。须显示双肩、双耳、双眉；头部约占照片约 2/3（“约”故 head_ratio 留空）。不得佩戴遮挡五官的饰品或粗框眼镜，不得拉伸、美化。未写印刷毫米与 DPI。色值只记白底。"
+        "en": "Ministry of Justice notice (checked 2026-10-12). Verbatim: 413px x 626px; colour; red, blue or white background. JPG, 40-100 KB and head about two-thirds are not in this quote. needs-review.",
+        "zh": "司法部公告（2026-10-12）。原文：宽413像素×高626像素；彩色；红、蓝、白底色均可。JPG、40-100KB 不在本原文。needs-review。"
       },
       "sources": [
         {
-          "url": "https://www.moj.gov.cn/jgsz/jgszzsdw/zsdwgjsfkszx/gjsfkszxdt/202506/t20250613_520865.html",
-          "title": "Ministry of Justice: Jilin Justice Department announcement on the 2025 National Unified Legal Professional Qualification objective-item exam (electronic photo rules)",
-          "checked": "2026-10-09"
+          "url": "https://www.moj.gov.cn/pub/sfbgwapp/zwgk/tzggApp/202606/t20260605_536064.html",
+          "title": "Ministry of Justice: National Unified Legal Professional Qualification Examination notice",
+          "checked": "2026-10-12"
         }
       ],
       "status": "needs-review"
@@ -331,24 +375,24 @@
         "background": [
           "#FFFFFF"
         ],
-        "color": "color"
+        "color": "either"
       },
       "file": {
         "formats": [
           "jpg"
         ],
-        "min_kb": 50,
-        "max_kb": 500
+        "min_kb": null,
+        "max_kb": 100
       },
       "notes": {
-        "en": "Current registration page (fetched 2026-10-09): recent (within 6 months) colour bareheaded official photo, white background preferred; JPG; 50–500 KB. No hats, headscarves, hair bands, or sunglasses except for religious reasons; no over-editing, Photoshop, or AI alteration. Pixel dimensions, print millimetres, DPI, and head ratio are not stated on that page. An older HSK candidate handbook on the same domain stated a 100 KB upper limit and 40 mm × 30 mm paper photos; those figures were not used here because they conflict with the current page. Status is needs-review for that conflict and the missing dimensions.",
-        "zh": "现行报名页（2026-10-09 核对）：近 6 个月内彩色免冠证件照，白底为宜；JPG；50–500 KB。除宗教原因外不得戴帽、头巾、发带、墨镜；不得过度修图、PS 或 AI 改图。该页未写像素、印刷毫米、DPI 与头部比例。同站旧版考生手册曾写 100 KB 上限与 40 mm × 30 mm 纸质照，与现行页冲突，本条未采用。因冲突及缺尺寸，标为 needs-review。"
+        "en": "Chinese Testing International notice dated 2013 (checked 2026-10-12). Verbatim: black-or-colour photo, white background preferred; JPG/JPEG; within 100KB; 2-cun ID photo. Stored: either; white #FFFFFF; jpg; max 100 KB. 2-cun is not converted to mm. Pixels and print mm are unknown. needs-review.",
+        "zh": "汉考国际 2013 年公告（2026-10-12）。原文：黑白或彩色、白底为佳、JPG/JPEG、100KB以内、二寸证件照。二寸不换算毫米。needs-review。"
       },
       "sources": [
         {
-          "url": "https://www.chinesetest.cn/regulation",
-          "title": "Chinese Testing International: registration rules (photo upload)",
-          "checked": "2026-10-09"
+          "url": "https://admin.chinesetest.cn/gonewcontent.do?id=8546450",
+          "title": "Chinese Testing International: 2013 HSK photo notice",
+          "checked": "2026-10-12"
         }
       ],
       "status": "needs-review"
@@ -539,14 +583,14 @@
         "max_kb": 200
       },
       "notes": {
-        "en": "National registration-flow page: bareheaded, front-facing, colour, white background; JPG/JPEG; not larger than 200 KB. Pixel dimensions, print millimetres, DPI, minimum file size, and head ratio are not stated. Provincial announcements may add extra rules; this entry records only the national page.",
-        "zh": "国家报名流程页：免冠、正面、彩色、白底；JPG/JPEG；不大于 200 KB。未写像素、印刷毫米、DPI、最小文件与头部比例。省级公告可能另有要求，本条只记国家页。"
+        "en": "NEEA NTCE page (checked 2026-10-12). Verbatim: bareheaded, front-facing, colour, white background, JPG/JPEG, not larger than 200K. Pixels are not in that quote. needs-review.",
+        "zh": "NTCE 国家报名页（2026-10-12）。原文：免冠、正面、彩色、白底，JPG/JPEG格式，不大于200K。无像素。needs-review。"
       },
       "sources": [
         {
-          "url": "https://ntce.neea.edu.cn/html1/folder/1507/1077-1.htm",
+          "url": "https://ntce.neea.edu.cn/xhtml1/folder/1507/1077-1.htm",
           "title": "NEEA NTCE: registration flow (photo upload)",
-          "checked": "2026-10-09"
+          "checked": "2026-10-12"
         }
       ],
       "status": "needs-review"
@@ -588,14 +632,14 @@
         "max_kb": 50
       },
       "notes": {
-        "en": "NEEA candidate notice: recent (within 6 months) front-facing bareheaded ID photo; white or blue background; 33 mm wide × 48 mm high; head occupies 2/3 of the photo height; file size 10–50 KB. File format, pixels, DPI, and colour vs grayscale are not stated.",
-        "zh": "教育部教育考试院考生须知：近 6 个月内正面免冠证件照，白底或蓝底，宽 33 mm、高 48 mm，头部占照片长度的 2/3，文件 10K–50K。未写格式、像素、DPI 及是否必须彩色。"
+        "en": "NEEA PETS notice (checked 2026-10-12). Verbatim: white or blue background, 33mm x 48mm, head 2/3 of photo height, file 10K-50K. Format and pixels are not in that quote. needs-review.",
+        "zh": "PETS 考生须知（2026-10-12）。原文：背景白色或蓝色，宽33mm、高48mm，头部占照片长度的2/3，文件10K-50K。无格式与像素。needs-review。"
       },
       "sources": [
         {
-          "url": "https://pets.neea.edu.cn/html1/folder/1507/1557-1.htm",
+          "url": "https://pets.neea.edu.cn/xhtml1/folder/1507/1557-1.htm",
           "title": "NEEA PETS: candidate notice (photo upload)",
-          "checked": "2026-10-09"
+          "checked": "2026-10-12"
         }
       ],
       "status": "needs-review"
@@ -603,12 +647,12 @@
     {
       "id": "schengen-visa",
       "name": {
-        "en": "Schengen / ICAO biometric photo (35×45 mm)",
-        "zh": "申根 / ICAO 生物识别照片（35×45 mm）"
+        "en": "Schengen visa photo (German Foreign Office sample)",
+        "zh": "申根签证照片（德国外交部样本）"
       },
       "category": "visa",
       "region": "INTL",
-      "issuer": "ICAO Doc 9303 / German Federal Foreign Office biometric photo rules",
+      "issuer": "German Federal Foreign Office (sample)",
       "photo": {
         "pixels": {
           "width": null,
@@ -627,7 +671,7 @@
           "max": 0.8
         },
         "background": [],
-        "color": "color"
+        "color": "either"
       },
       "file": {
         "formats": [],
@@ -635,19 +679,14 @@
         "max_kb": null
       },
       "notes": {
-        "en": "The EU Visa Code requires a photograph meeting ICAO Doc 9303 portrait rules; ICAO Part 3 states submitted portraits should be 45.0 mm × 35.0 mm. This entry records the widely used 35×45 mm print plus the German Federal Foreign Office biometric measurements that implement the ICAO 70–80% face height (32–36 mm chin to crown on a 35×45 mm photo). Background is a single light colour, ideally neutral grey — no official hex. Pixel size, file limits, and DPI are not stated. Individual Schengen consulates may word height differently; check the consulate that will receive the application.",
-        "zh": "欧盟签证法典要求照片符合 ICAO Doc 9303；ICAO 第 3 部分写明提交肖像应为 45.0 mm × 35.0 mm。本条记录常用的 35×45 mm，以及德国外交部生物识别尺寸：面部高度占照片 70–80%（35×45 mm 上为下巴到头顶 32–36 mm）。背景为单一浅色，理想为中性灰，无官方色值。未写像素、文件限制与 DPI。各申根馆表述可能不同，以受理馆为准。"
+        "en": "German Foreign Office sample PDF (checked 2026-10-12). Verbatim: 45 mm; 35 mm; face 70-80 percent (32-36mm); one colour and bright, ideally neutral grey; black and white or in colour. Digital format and file size are not in that quote. needs-review.",
+        "zh": "德国外交部样本 PDF（2026-10-12）。原文：35x45 mm；脸高 70-80%；单一浅色背景；黑白或彩色。无数字格式与大小。needs-review。"
       },
       "sources": [
         {
-          "url": "https://www.icao.int/sites/default/files/publications/DocSeries/9303_p3_cons_en.pdf",
-          "title": "ICAO Doc 9303 Part 3: Specifications Common to all MRTDs (submitted portrait size)",
-          "checked": "2026-10-09"
-        },
-        {
-          "url": "https://lima.diplo.de/pe-de/konsularservice/2663976-2663976",
-          "title": "German Federal Foreign Office (Embassy Lima): biometric passport photo requirements 35×45 mm, face 70–80%",
-          "checked": "2026-10-09"
+          "url": "https://digital.diplo.de/api/uploads/biometric_photos_instruction_0eb9a4741a.pdf",
+          "title": "German Foreign Office sample: biometric photos instruction (35x45 mm)",
+          "checked": "2026-10-12"
         }
       ],
       "status": "needs-review"
@@ -689,14 +728,14 @@
         "max_kb": 8192
       },
       "notes": {
-        "en": "ICA Photo Guidelines: a new coloured photograph; recommended online upload size 400×514 pixels via e-Services; accepted extensions jpg, jpeg, heic, heif, png; maximum 8 MB (8192 KB). Do not alter or enhance facial features. Printed hardcopy photos must be matte or semi-matte; exact printed millimetres are not stated on this guidelines page (ICA forms used elsewhere state 35×45 mm — not copied here). Background hex and head ratio are not stated on the guidelines page. ICA states the requirements follow ISO/ICAO.",
-        "zh": "ICA 照片指引：须提交新的彩色照片；电子服务建议上传尺寸 400×514 像素；接受 jpg/jpeg/heic/heif/png；最大 8 MB（8192 KB）。不得改五官。纸质提交须亚光或半亚光；该指引页未写印刷毫米（其他 ICA 表格有 35×45 mm，本条未抄入）。底色色值与头部比例未写。ICA 称要求依据 ISO/ICAO。"
+        "en": "ICA Photo Guidelines HTML (checked 2026-10-12). Verbatim: 400X514 pixels for e-Services; jpg, jpeg, heic, heif and png; Maximum file size 8MB. 35x45 mm and white background are not in the captured HTML. needs-review.",
+        "zh": "ICA HTML（2026-10-12）。原文：400X514 pixels; jpg/jpeg/heic/heif/png; 8MB。抓到的 HTML 没有 35x45 mm 与白底。needs-review。"
       },
       "sources": [
         {
           "url": "https://www.ica.gov.sg/photo-guidelines",
           "title": "ICA Singapore: Photo guidelines",
-          "checked": "2026-10-09"
+          "checked": "2026-10-12"
         }
       ],
       "status": "needs-review"
@@ -817,9 +856,7 @@
         "dpi": null,
         "aspect": "4:5",
         "head_ratio": null,
-        "background": [
-          "#FFFFFF"
-        ],
+        "background": [],
         "color": "color"
       },
       "file": {
@@ -830,14 +867,14 @@
         "max_kb": 6144
       },
       "notes": {
-        "en": "UKVI guidance (published 12 February 2026): colour JPG/JPEG; at least 600×750 pixels; 50 KB–6 MB; vertically oriented; not mirrored. Plain light-coloured background (hex not named; #FFFFFF stored as a default). Must show head, shoulders and upper body; not a scan of another photo or of the passport image. Print millimetres, DPI, and head ratio are not stated. 6 MB is recorded as 6144 KB (1024-based).",
-        "zh": "UKVI 指引（2026-02-12）：彩色 JPG/JPEG；至少 600×750 像素；50 KB–6 MB；竖向、不可镜像。浅色纯背景（未给色值，默认记 #FFFFFF）。须含头、肩与上身；不得翻拍其他照片或护照页。未写印刷毫米、DPI 与头部比例。6 MB 记为 6144 KB。"
+        "en": "UKVI guidance (checked 2026-10-12). Verbatim: at least 600 pixels wide and 750 pixels tall; at least 50KB and no more than 6MB; a jpg or jpeg file; plain light-coloured background. Stored: min 600x750 px; JPG/JPEG; 50 KB-6 MB (6 MB recorded as 6144 KB; 1000 vs 1024 not stated). Light-coloured background is not a named hex, so background stays empty. Print millimetres, DPI and head ratio are not in that quote. Missing a named background keeps needs-review.",
+        "zh": "UKVI 指引（2026-10-12 核对）. 原文: at least 600 pixels wide and 750 pixels tall; at least 50KB and no more than 6MB; a jpg or jpeg file; plain light-coloured background. 只记: 600x750; JPG/JPEG; 50 KB-6 MB. 浅色背景无色值. needs-review."
       },
       "sources": [
         {
           "url": "https://www.gov.uk/guidance/how-to-take-a-photo-for-a-visa-application-or-permission",
           "title": "GOV.UK: Take a photo of your face for a visa application or permission",
-          "checked": "2026-10-09"
+          "checked": "2026-10-12"
         }
       ],
       "status": "needs-review"
@@ -991,14 +1028,14 @@
         "max_kb": 30
       },
       "notes": {
-        "en": "NEEA candidate notice: recent (within 6 months) front-facing bareheaded ID photo; clear; white or blue background; 33 mm wide × 48 mm high; head occupies 2/3 of the photo height; file size 10–30 KB. File format and pixel dimensions are not stated. Colour vs grayscale is not stated. Used on the admission ticket and certificates.",
-        "zh": "教育部教育考试院考生须知：近 6 个月内正面免冠证件照，清晰，白底或蓝底，宽 33 mm、高 48 mm，头部占照片长度的 2/3，文件 10K–30K。未写文件格式与像素。未写必须彩色。照片用于准考证与证书。"
+        "en": "NEEA WSK notice (checked 2026-10-12). Verbatim: white or blue background, 33mm x 48mm, head 2/3 of photo height, file 10K-30K. Format and pixels are not in that quote. needs-review.",
+        "zh": "WSK 考生须知（2026-10-12）。原文：背景白色或蓝色，宽33mm、高48mm，头部占照片长度的2/3，文件10K-30K。无格式与像素。needs-review。"
       },
       "sources": [
         {
-          "url": "https://wsk.neea.edu.cn/html1/folder/1507/1633-1.htm",
+          "url": "https://wsk.neea.edu.cn/xhtml1/folder/1507/1633-1.htm",
           "title": "NEEA WSK: candidate notice (photo upload)",
-          "checked": "2026-10-09"
+          "checked": "2026-10-12"
         }
       ],
       "status": "needs-review"
